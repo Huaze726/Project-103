@@ -1,0 +1,46 @@
+body {
+    background-image: linear-gradient(to right top, red, red, orange, orange, yellow);
+}
+
+.logout {
+    font-size: 20px;
+    float: right;
+    margin: 5px;
+}
+
+.logout_icon {
+	margin-left: 10px;
+}
+
+.send {
+	color: lime;
+	font-size: 30px;
+	cursor: text;
+    margin-right: -120px;
+}
+
+.sendbtn {
+    width: 40%;
+    border-radius: 10px;
+    transition: all 0.4s;
+    border: none;
+}
+
+.sendbtn:hover {
+    transform: scale(1.08);
+    background-color: green;
+    color: white;
+}
+
+#msg {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    transition: all 0.4s;
+}
+
+#msg:focus {
+    box-shadow: 3px 3px 10px white;
+    transform: scale(1.05);
+}
